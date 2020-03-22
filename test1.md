@@ -8,6 +8,7 @@ zzz
 x
 
 
+<div id="editor">
 ```
 \documentclass{article}
 
@@ -20,6 +21,10 @@ aaa
 zzz
 \end{document}
 ```
+</div>
+
+
+11
 
   <div id="buttons">
     <button id="compile" autofocus>Compile to PDF</button>
