@@ -3,7 +3,7 @@ title: test 1
 ---
 <style>
     #editor {
-      position: absolute;
+      position: relative;
       top: 7em;
       bottom: 21em;
       left: 0;
