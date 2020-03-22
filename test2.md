@@ -31,7 +31,7 @@ zzz
 
 
 
-With a LaTeX example 5
+With a LaTeX example 6
 
 and links to texlive.js and OverLeaf
 
@@ -82,7 +82,7 @@ and links to texlive.js and OverLeaf
   }
 
   document.getElementById("compile").addEventListener("click", function(e) {
-    var source_code = buttons.parentNode.getElementsByTagName("textarea")[1].textContent;
+    var source_code = buttons.parentNode.getElementsByTagName("div")[0].textContent;
     compile(source_code);
   });
 
