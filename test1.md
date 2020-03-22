@@ -15,7 +15,7 @@ title: test 1
 
 Example document supposed to be here (not top of page)
 
-<div id="editor">
+<pre id="embedded_ace_code">
 \documentclass{article}
 
 \begin{document}
@@ -26,7 +26,7 @@ aaa
 \section{The End}
 zzz
 \end{document}
-</div>
+</pre>
 
 
 
@@ -57,7 +57,7 @@ and links to texlive.js and OverLeaf
 <script src="promisejs/promise.js"></script>
 <script src="pdftex.js"></script>
 <script>
-  var editor = ace.edit("editor");
+  var editor = ace.edit("embedded_ace_code");
 
   editor.setOptions({
     mode: "ace/mode/latex",
