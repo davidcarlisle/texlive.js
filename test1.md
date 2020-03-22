@@ -3,9 +3,9 @@ title: test 1
 ---
 <style>
     #editor {
-      position: relative;
-      top: 7em;
-      bottom: 21em;
+      position: absolute;
+      top: 0em;
+      bottom: 0em;
       left: 0;
       right: 0;
     }
@@ -16,7 +16,7 @@ title: test 1
 zzz
 x
 
-
+<div style="position:relative">
 <div id="editor">
 \documentclass{article}
 
@@ -29,9 +29,9 @@ aaa
 zzz
 \end{document}
 </div>
+</div>
 
-
-2211
+332211
 
   <div id="buttons">
     <button id="compile" autofocus>Compile to PDF</button>
