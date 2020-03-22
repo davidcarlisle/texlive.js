@@ -29,13 +29,21 @@ zzz
 \end{document}
 </div>
 
-332211
+
 
   <div id="buttons">
     <button id="overleaf" onclick="document.location='https://www.overleaf.com/read/kstsvwcdpqqm'" >Open in OverLeaf</button>
     <button id="compile" autofocus>Compile to PDF</button>
     <button id="open_pdf_btn" style="display: none">Open PDF</button>
   </div>
+
+
+
+# some test document
+
+With a LaTeX example
+
+and links to texlive.js and OverLeaf
 
   <footer>
     <div class="both">
