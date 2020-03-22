@@ -4,8 +4,8 @@ title: test 1
 <style>
     #editor {
       position: absolute;
-      top: 0em;
-      bottom: 0em;
+      top: 7em;
+      bottom: 21em;
       left: 0;
       right: 0;
     }
@@ -16,7 +16,6 @@ title: test 1
 zzz
 x
 
-<div style="position:relative">
 <div id="editor">
 \documentclass{article}
 
@@ -29,11 +28,11 @@ aaa
 zzz
 \end{document}
 </div>
-</div>
 
 332211
 
   <div id="buttons">
+    <button id="overleaf" onclick="document.location='https://www.overleaf.com/read/kstsvwcdpqqm'" >Open in OverLeaf</button>
     <button id="compile" autofocus>Compile to PDF</button>
     <button id="open_pdf_btn" style="display: none">Open PDF</button>
   </div>
