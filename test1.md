@@ -1,6 +1,15 @@
 ---
 title: test 1
 ---
+<style>
+    #editor {
+      position: absolute;
+      top: 7em;
+      bottom: 21em;
+      left: 0;
+      right: 0;
+    }
+<style>
 
 # test 1
 
@@ -22,7 +31,7 @@ zzz
 </div>
 
 
-11
+2211
 
   <div id="buttons">
     <button id="compile" autofocus>Compile to PDF</button>
