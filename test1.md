@@ -9,7 +9,7 @@ title: test 1
       left: 0;
       right: 0;
     }
-<style>
+</style>
 
 # test 1
 
