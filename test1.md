@@ -9,6 +9,23 @@ title: test 1
       left: 0;
       right: 0;
     }
+
+#ace_editor_demo, #embedded_ace_code {
+    height: 275px;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    border-bottom-right-radius: 0px;
+    margin-top: 5px;
+}
+
+#ace_editor_demo {
+    margin-bottom: 0px;
+}
+
+#embedded_ace_code {
+    height: 525px;
+}
+
 </style>
 
 # test 1
