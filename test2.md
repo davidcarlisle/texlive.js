@@ -5,7 +5,6 @@ title: test 2
 
 without using the ace editor
 
-<div id="doc1">
 
 ```latex
 \documentclass{article}
@@ -20,7 +19,6 @@ zzz
 \end{document}
 ```
 
-</div>
 
 
   <div id="buttons">
@@ -33,7 +31,7 @@ zzz
 
 
 
-With a LaTeX example 4
+With a LaTeX example 5
 
 and links to texlive.js and OverLeaf
 
@@ -84,7 +82,7 @@ and links to texlive.js and OverLeaf
   }
 
   document.getElementById("compile").addEventListener("click", function(e) {
-    var source_code = doc1.textContent;
+    var source_code = buttons.parentNode.getElementsByTagName("textarea")[1].textContent;
     compile(source_code);
   });
 
