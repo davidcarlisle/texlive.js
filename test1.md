@@ -48,7 +48,7 @@ and links to texlive.js and OverLeaf
   <footer>
     <div class="both">
       <h3>Console Output</h3>
-      <pre id="output" style="overflow: scroll; font-size:12px; max-height: 7em">Click "Compile to PDF" and watch the console output here.</pre>
+      <pre id="output" style="overflow: scroll; font-size:12px; max-height: 7em">Click "Use texlive.js" and watch the console output here.</pre>
       <a name="running" id="running" style="display: none">Compiling...<img src="loading.gif" /></a>
     </div>
 
