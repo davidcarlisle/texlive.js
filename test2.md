@@ -1,9 +1,9 @@
 ---
 title: test 2
 ---
-# test 2
+# some test document, test 2
 
-without useing the ace editor
+without using the ace editor
 
 
 ```latex
@@ -29,7 +29,7 @@ zzz
 
 
 
-# some test document
+
 
 With a LaTeX example
 
