@@ -33,7 +33,7 @@ zzz
 
   <div id="buttons">
     <button id="overleaf" onclick="document.location='https://www.overleaf.com/read/kstsvwcdpqqm'" >Open in OverLeaf</button>
-    <button id="compile" autofocus>Compile to PDF</button>
+    <button id="compile" autofocus>Use texlive.js</button>
     <button id="open_pdf_btn" style="display: none">Open PDF</button>
   </div>
 
