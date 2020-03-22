@@ -9,7 +9,6 @@ x
 
 
 <div id="editor">
-```
 \documentclass{article}
 
 \begin{document}
@@ -20,7 +19,6 @@ aaa
 \section{The End}
 zzz
 \end{document}
-```
 </div>
 
 
