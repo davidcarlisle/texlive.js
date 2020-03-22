@@ -15,7 +15,7 @@ title: test 1
 
 Example document supposed to be here (not top of page)
 
-<pre id="embedded_ace_code">
+<div id="editor">
 \documentclass{article}
 
 \begin{document}
@@ -26,7 +26,7 @@ aaa
 \section{The End}
 zzz
 \end{document}
-</pre>
+</div>
 
 
 
