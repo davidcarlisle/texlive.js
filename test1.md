@@ -13,8 +13,7 @@ title: test 1
 
 # test 1
 
-zzz
-x
+Example document supposed to be here (not top of page)
 
 <div id="editor">
 \documentclass{article}
