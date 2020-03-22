@@ -59,7 +59,7 @@ and links to texlive.js and OverLeaf
   var pdf_dataurl = undefined;
   var compile = function(source_code) {
     document.getElementById("output").textContent = "";
-    showLoadingIndicator(true);
+
 
     var texlive = new TeXLive();
     var pdftex = texlive.pdftex;
@@ -72,11 +72,9 @@ and links to texlive.js and OverLeaf
       var end_time = new Date().getTime();
       console.info("Execution time: " + (end_time - start_time) / 1000 + ' sec');
 
-      showLoadingIndicator(false);
 
       if (pdf_dataurl === false)
         return;
-      showOpenButton(true);
       document.getElementById("open_pdf_btn").focus();
       texlive.terminate();
     });
