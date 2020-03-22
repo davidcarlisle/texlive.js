@@ -33,7 +33,7 @@ zzz
 
 
 
-With a LaTeX example 3
+With a LaTeX example 4
 
 and links to texlive.js and OverLeaf
 
@@ -45,6 +45,7 @@ and links to texlive.js and OverLeaf
     </div>
 
 
+<script src="promisejs/promise.js"></script>
 <script src="pdftex.js"></script>
 <script>
 
