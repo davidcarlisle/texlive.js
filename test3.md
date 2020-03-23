@@ -101,10 +101,8 @@ There is more markdown text here.
 //2 x.document.write(iframe);
 //2 x.document.close();
 var ob = document.createElement('object');
-ob.setattribute("type","application/pdf");
-ob.setattribute("width","300");
-ob.setattribute("height","300");
-ob.setattribute("data",pdf_dataurl);
+ob.type="application/pdf";
+ob.data=pdf_dataurl;
 buttons.insertBefore(ob,buttons.firstChild);
 e.preventDefault();
   });
