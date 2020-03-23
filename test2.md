@@ -20,10 +20,10 @@ zzz
 ```
 
 <div id="texliverun" style="display: none" class="both">
-<b>Console Output</hb>
+<b>Console Output</b>
  <pre id="output" style="overflow: scroll; font-size:12px; max-height: 7em">Click "Use texlive.js" and watch the console output here.</pre>
    <a name="running" id="running" style="display: none">Compiling...<img src="loading.gif" /></a>
- </div>
+</div>
 
 
 
@@ -98,7 +98,7 @@ buttons.parentNode.getElementsByTagName("div")[0].contentEditable="true";
 document.getElementById("open_pdf_btn").style.display="inline";
 document.getElementById("compile").style.display="inline";
 document.getElementById("overleaf").style.display="none";
-document.getElementById("texliverub").style.display="block";
+document.getElementById("texliverun").style.display="block";
 
   });
 
