@@ -23,8 +23,9 @@ zzz
 
   <div id="buttons">
     <button id="overleaf" onclick="document.location='https://www.overleaf.com/read/kstsvwcdpqqm'" >Open in OverLeaf</button>
-    <button id="compile" autofocus>Use texlive.js</button>
-    <button id="open_pdf_btn">Open PDF</button>
+    <button id="edit" autofocus ">Edit for texlive.js</button>
+    <button id="compile"  style="display: none">Use texlive.js</button>
+    <button id="open_pdf_btn" style="display: none">Open PDF</button>
   </div>
 
 
@@ -89,6 +90,14 @@ and links to texlive.js and OverLeaf
   document.getElementById("open_pdf_btn").addEventListener("click", function(e) {
     window.open(pdf_dataurl);
     e.preventDefault();
+  });
+
+  document.getElementById("edit").addEventListener("click", function(e) {
+buttons.parentNode.getElementsByTagName("div")[0].contentEditable="true";
+document.getElementById("open_pdf_btn").style.display="inline";
+document.getElementById("compile").style.display="inline";
+document.getElementById("overleaf").style.display="none";
+
   });
 
   //var pdftex_preload = new PDFTeX("pdftex-worker.js");
