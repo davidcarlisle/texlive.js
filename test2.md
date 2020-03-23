@@ -3,12 +3,12 @@ title: test 2
 ---
 # some test document, test 2
 
-A description of  **LaTeX** in [GFM Markdown](https://github.github.com/gfm/)
+A description of  **LaTeX** in [Markdown (GFM)](https://github.github.com/gfm/)
 
 With a code block using LaTeX syntax highlighting
 
-* The <button>Open in OverLeaf</button> Opens the example in Overleaf (currently a read-only instance under my account)
- * The <button>Edit for texlive.js</button> Makes the code block editable and provides a button to compile it to PDF using texlive.js (running in your browser). Also a button to display the generated DF.
+* The <button style="padding:0;font-size:75%">Open in OverLeaf</button> button opens the example in Overleaf (currently a read-only instance under my account)
+ * The <button style="padding:0;font-size:75%">Edit for texlive.js</button> button makes the code block editable and provides a button to compile it to PDF using texlive.js (running in your browser). A text box showing the console output will be displayed, and also a button to display the generated PDF.
 
 
 ```latex
