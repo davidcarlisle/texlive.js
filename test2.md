@@ -3,7 +3,12 @@ title: test 2
 ---
 # some test document, test 2
 
-without using the ace editor
+A description of  **LaTeX** in [GFM Markdown](https://github.github.com/gfm/)
+
+With a code block using LaTeX syntax highlighting
+
+* The <button>Open in OverLeaf</button> Opens the example in Overleaf (currently a read-only instance under my account)
+ * The <button>Edit for texlive.js</button> Makes the code block editable and provides a button to compile it to PDF using texlive.js (running in your browser). Also a button to display the generated DF.
 
 
 ```latex
@@ -38,11 +43,11 @@ zzz
 
 
 
-With a LaTeX example 6
+## More details
 
-and links to texlive.js and OverLeaf
+There is more markdown text here.
 
-  <footer>
+
 
 
 <script src="promisejs/promise.js"></script>
