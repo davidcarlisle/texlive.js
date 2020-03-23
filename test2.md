@@ -98,6 +98,7 @@ buttons.parentNode.getElementsByTagName("div")[0].contentEditable="true";
 document.getElementById("open_pdf_btn").style.display="inline";
 document.getElementById("compile").style.display="inline";
 document.getElementById("overleaf").style.display="none";
+document.getElementById("edit").style.display="none";
 document.getElementById("texliverun").style.display="block";
 
   });
