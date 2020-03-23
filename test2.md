@@ -19,11 +19,17 @@ zzz
 \end{document}
 ```
 
+<div id="texliverun" style="display: none" class="both">
+<b>Console Output</hb>
+ <pre id="output" style="overflow: scroll; font-size:12px; max-height: 7em">Click "Use texlive.js" and watch the console output here.</pre>
+   <a name="running" id="running" style="display: none">Compiling...<img src="loading.gif" /></a>
+ </div>
+
 
 
   <div id="buttons">
     <button id="overleaf" onclick="document.location='https://www.overleaf.com/read/kstsvwcdpqqm'" >Open in OverLeaf</button>
-    <button id="edit" autofocus ">Edit for texlive.js</button>
+    <button id="edit" autofocus>Edit for texlive.js</button>
     <button id="compile"  style="display: none">Use texlive.js</button>
     <button id="open_pdf_btn" style="display: none">Open PDF</button>
   </div>
@@ -37,11 +43,6 @@ With a LaTeX example 6
 and links to texlive.js and OverLeaf
 
   <footer>
-    <div class="both">
-      <h3>Console Output</h3>
-      <pre id="output" style="overflow: scroll; font-size:12px; max-height: 7em">Click "Use texlive.js" and watch the console output here.</pre>
-      <a name="running" id="running" style="display: none">Compiling...<img src="loading.gif" /></a>
-    </div>
 
 
 <script src="promisejs/promise.js"></script>
@@ -97,6 +98,7 @@ buttons.parentNode.getElementsByTagName("div")[0].contentEditable="true";
 document.getElementById("open_pdf_btn").style.display="inline";
 document.getElementById("compile").style.display="inline";
 document.getElementById("overleaf").style.display="none";
+document.getElementById("texliverub").style.display="block";
 
   });
 
