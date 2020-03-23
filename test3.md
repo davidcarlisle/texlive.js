@@ -94,12 +94,18 @@ There is more markdown text here.
   });
 
   document.getElementById("open_pdf_btn").addEventListener("click", function(e) {
-//    window.open(pdf_dataurl);
-var iframe = "<iframe width='100%' height='100%' src='"+ encodeURIComponent(pdf_dataurl) +  "'></iframe>"
-var x = window.open();
-x.document.open();
-x.document.write(iframe);
-x.document.close();
+//1    window.open(pdf_dataurl);
+//2 var iframe = "<iframe width='100%' height='100%' src='"+ encodeURIComponent(pdf_dataurl) +  "'></iframe>"
+//2 var x = window.open();
+//2 x.document.open();
+//2 x.document.write(iframe);
+//2 x.document.close();
+var ob = document.createElement('object');
+ob.setattribute("type","application/pdf");
+ob.setattribute("width","300");
+ob.setattribute("height","300");
+ob.setattribute("data",pdf_dataurl);
+buttons.insertBefore(ob,buttons.firstChild);
 e.preventDefault();
   });
 
